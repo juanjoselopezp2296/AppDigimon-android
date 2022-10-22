@@ -1,0 +1,34 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+    <style name="cvPrincipal">
+        <item name="android:layout_margin">30dp</item>
+    </style>
+    <style name="cvPrincipalImg">
+        <item name="android:layout_margin">20dp</item>
+        <item name="android:layout_height">150dp</item>
+        <item name="android:layout_width">match_parent</item>
+    </style>
+    <style name="cvSecondImg">
+        <item name="android:layout_height">30dp</item>
+        <item name="android:layout_width">30dp</item>
+    </style>
+    <style name="cvPrincipalTv">
+        <item name="android:textSize">20dp</item>
+        <item name="android:textColor">@color/colorPrimaryText</item>
+    </style>
+    <style name="cvSecondTv">
+        <item name="android:textSize">15dp</item>
+        <item name="android:textColor">@color/colorPrimaryText</item>
+        <item name="android:layout_margin">5dp</item>
+    </style>
+    <style name="iconStar">
+        <item name="android:layout_height">40dp</item>
+        <item name="android:layout_width">50dp</item>
+    </style>
+</resources>

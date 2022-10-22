@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.Toolbar xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/toolbar"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/colorPrimary"
+    android:theme="@style/ThemeOverlay.AppCompat.ActionBar"
+    app:navigationIcon="@drawable/ic_launcher_foreground"
+    app:layout_scrollFlags="scroll|enterAlways"
+    app:popupTheme="@style/ThemeOverlay.AppCompat.Light">
+
+    <ImageButton
+        android:id="@+id/btnIconStar"
+        style="@style/iconStar"
+        android:background="@drawable/digimon_staricon"
+        android:contentDescription="@string/plike"
+        android:onClick="irMascotaFavoritos"
+        android:layout_gravity="end"
+        android:layout_marginRight="30dp"
+        />
+    
+    <com.google.android.material.tabs.TabLayout
+        android:id="@+id/tabLayout"
+        android:layout_width="match_parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_height="wrap_content"></com.google.android.material.tabs.TabLayout>
+</androidx.appcompat.widget.Toolbar>
